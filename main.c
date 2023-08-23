@@ -40,7 +40,6 @@ void execute_instructions(FILE *file, instruction_t *instructions)
 			exit(EXIT_FAILURE);
 		}
 	}
-	free(line);
 }
 
 /**
