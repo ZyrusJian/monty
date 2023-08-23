@@ -56,7 +56,10 @@ int main(int argc, char **argv)
 	FILE *file;
 	instruction_t instructions[] = {
 		{"push", push},
-		{"pall", pall},/* Add more instructions here */
+		{"pall", pall},
+		{"pint", pint},
+		{"pop", pop},
+		/* Add more instructions here */
 		{NULL, NULL}
 	};
 
