@@ -40,6 +40,7 @@ void execute_instructions(FILE *file, instruction_t *instructions)
 			exit(EXIT_FAILURE);
 		}
 	}
+	free(line);
 }
 
 /**
@@ -58,6 +59,8 @@ int main(int argc, char **argv)
 		{"pall", pall},
 		{"pint", pint},
 		{"pop", pop},
+		{"swap", swap},
+		{"add", add},
 		/* Add more instructions here */
 		{NULL, NULL}
 	};

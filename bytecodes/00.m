@@ -8,3 +8,9 @@ pint
 pop
 pint
 pall
+swap
+pint
+add
+pint
+swap
+pall
